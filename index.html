@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1 class = "name">Портфолио</h1>
+    <div class = "container">
+        <a class = "cont" href="#o_cebe">О себе</a>
+        <a class = "cont" href="#voproc">Вопросы</a>
+        <a class = "cont" href="#contact">Контакты</a>
+    </div>
+    <p></p>
+    <img class="logo" src = "https://i.pinimg.com/originals/de/2e/f8/de2ef841e073341b42b03450d4be1f64.jpg">
+    <p></p>
+    <h2 id = "o_cebe">О Себе</h2>
+    <p>Я знаю что такое программирование. Программи́рование — процесс создания компьютерных программ.
+
+По выражению одного из основателей языков программирования Никлауса Вирта «Программы = алгоритмы + структуры данных»[1][2].
+
+Программирование основывается на использовании языков программирования, на которых записываются исходные тексты программ.</p>
+    <p>И я знаю что такое питон. Пито́ны (лат. Pythonidae) — семейство неядовитых змей[1]. В настоящее время насчитывается 9 родов и 41 вид [2]. В более узком смысле питоны — представители рода Python (настоящие питоны).</p>
+    <h1 id = "voproc">Вопросы</h1>
+    <p>Здесь вы можете задать свой вопрос. Я обязательно отвечу на них.</p>
+    <textarea id = "pole_voprosa"></textarea>
+    <button id = "knopka">Отправить</button>
+    <h1 id = "contact">Контакты:</h1>
+    <div class = "content">
+        <a class = "ven">VK</a>
+        <a class = "ven">Discord</a>
+        <a class = "ven">Viber</a>
+        <a class = "ven">ещё чё то</a>
+    </div>
+    <script>
+        let f = document.getElementById("knopka")
+        let g = document.getElementById("pole_voprosa")
+        function Deystvie(){
+            g.value = ""
+        }
+        f.addEventListener("click", Deystvie)
+    </script>
+</body>
+</html>

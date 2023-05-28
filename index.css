@@ -1,0 +1,42 @@
+.logo {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cont {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.cont:hover {
+    background-color: rgb(107, 160, 133);
+    transform: scale(1.4);
+}
+
+.name {
+    text-align: center;
+    color:crimson;
+}
+
+.ven {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+    transition: all 0.2s; 
+}
+
+.ven:hover {
+    background-color: rgb(15, 131, 87);
+}
+
+.content {
+    background-color: rgb(42, 165, 79);
+    display: flex;
+
+}
